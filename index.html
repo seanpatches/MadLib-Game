@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>MadLib Game</title>
 </head>
 <body>
     <h1> MadLib Challenge</h1>
 
-    <p>  There was <input id="adjective1"> <input id="noun1"> from <input id="place">
-    Who <input id="verb1"> all his <input id="noun2">  in a <input id="noun3"> 
-    But his <input id="noun4"> named <input id="properNoun">
-    <input id="verb2"> with a <input id="noun5">   
+    <p>  There was a <input id="adjective"> <input id="noun1"> from <input id="place">,
+    who <input id="verb1"> all his <input id="noun2">  in a <input id="noun3">. 
+    But his <input id="noun4">, named <input id="properNoun">,
+    <input id="verb2"> with a <input id="noun5">.
     </p>
 
-    <p>
-    <button>MadLib It!</button>
+    <p id=button>
+    <button onclick="madlib()">MadLib It!</button>
     </p>
 
+    <p id= "reprint"> Your story will appear here! </p>
 
-    <link rel="stylesheet" href="style.css">
+ 
+    
+        
+
+    <script src="main.js"></script>
 </body>
 </html>
